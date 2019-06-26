@@ -2,9 +2,13 @@ package com.example.mewokmeong;
 
 import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.GridView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -56,6 +60,18 @@ public class NumbersActivity extends AppCompatActivity {
         // Make the {@link ListView} use the {@link WordAdapter} we created above, so that the
         // {@link ListView} will display list items for each {@link Word} in the list.
         listView.setAdapter(adapter);
+
+        // Panggil Page Submit
+        Button setanPage = (Button) findViewById(R.id.setan);
+// Set a click listener on that View
+        setanPage.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the numbers View is clicked on.
+            @Override
+            public void onClick(View view) {
+                Intent setanIntent = new Intent(NumbersActivity.this, SetanActivity.class);
+                startActivity(setanIntent);
+            }
+        });
 
     }
 }

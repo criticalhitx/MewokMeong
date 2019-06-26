@@ -7,15 +7,24 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@drawable/s_key"
+        android:label="S-Key"
+        android:roundIcon="@drawable/s_key"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:label="Numbers" android:name=".NumbersActivity"></activity>
-        <activity android:label="Phrases" android:name=".PhrasesActivity" />
-        <activity android:label="Family" android:name=".FamilyActivity" />
-        <activity android:label="Colors" android:name=".ColorsActivity" />
+        <activity android:name=".SetanActivity"></activity>
+        <activity
+            android:name=".NumbersActivity"
+            android:label="Numbers" />
+        <activity
+            android:name=".PhrasesActivity"
+            android:label="Phrases" />
+        <activity
+            android:name=".FamilyActivity"
+            android:label="Family" />
+        <activity
+            android:name=".ColorsActivity"
+            android:label="Colors" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
