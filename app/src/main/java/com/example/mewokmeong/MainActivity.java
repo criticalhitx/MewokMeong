@@ -1,13 +1,13 @@
 package com.example.mewokmeong;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+//Link menuju dokumen
+// https://docs.google.com/document/d/16sQ-0r5zMrdRXUwOaYbTLNXADasuSYFpy7K0Bn8oVfg/pub?embedded=true
 public class MainActivity extends AppCompatActivity {
 
     @Override
