@@ -39,7 +39,7 @@ public class NumbersActivity extends AppCompatActivity {
             rootView.addView(wordView);
         } */
 
-      /*Here is GridView Code
+      /*Here is GridView Codes
       ArrayAdapter<String> itemsAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, words); // Layout that is predefined by Android
         GridView gridView = (GridView) findViewById(R.id.list);
         gridView.setAdapter(itemsAdapter);
