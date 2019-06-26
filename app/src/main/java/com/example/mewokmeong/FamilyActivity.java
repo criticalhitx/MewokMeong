@@ -20,16 +20,16 @@ public class FamilyActivity extends AppCompatActivity {
         // Create a list of words
         ArrayList<Word> words = new ArrayList<Word>();
         //words.add("one");
-        words.add(new Word("Father", "Bapak"));
-        words.add(new Word("Mother", "Ibu"));
-        words.add(new Word("three", "san"));
-        words.add(new Word("four", "yon"));
-        words.add(new Word("five", "go"));
-        words.add(new Word("six", "roku"));
-        words.add(new Word("seven", "nana"));
-        words.add(new Word("eight", "hachi"));
-        words.add(new Word("nine", "kyuu"));
-        words.add(new Word("ten", "jyuu"));
+        words.add(new Word("Father", "Otousan"));
+        words.add(new Word("Mother", "Okaasan"));
+        words.add(new Word("Younger Sister", "Imouto"));
+        words.add(new Word("Older Sister", "Ane"));
+        words.add(new Word("Younger Brother", "Itouto"));
+        words.add(new Word("Older Brother", "Ani"));
+        words.add(new Word("Son", "Musuko"));
+        words.add(new Word("Daughter", "Musume"));
+        words.add(new Word("Cousin", "Itoko"));
+        words.add(new Word("Niece", "Mei"));
 
       /* example using Linear Layout and Text View to update
         LinearLayout rootView = (LinearLayout) findViewById(R.id.rootView); // Parent View
